@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  background: #fff;
+}
+
+body { margin: 8px; font-size: 16px; line-height: normal; }
+header { text-align: center; }
+header h1 { font-size: 1.5em; margin: .83em 0; }
+header h2 { font-size: 1.17em; margin: 1em 0; }
+.logo { display: inline-block; object-fit: contain; border: 0; }
+
+a:link { color: #00e; }
+a:visited { color: #551a8b; }
+a:active { color: #f00; }
+
+nav { width: max-content; max-width: 100%; margin: .17in auto 0; }
+nav section { margin-bottom: .19in; }
+nav section:last-child { margin-bottom: 0; }
+nav h2 { margin: 0; font-size: 1em; }
+nav p { margin: 0 0 0 2em; }
+
+footer { margin-top: .5in; text-align: center; }
+.project-mark { display: inline-block; margin: 0 0 .19in; font-size: 12px; }
+.project-mark a { color: #000; font-weight: bold; font-size: 16px; text-decoration: none; }
+footer > p:last-child { margin: .19in 0 1em; }
+
+.detail main { max-width: 760px; margin: 2em auto; }
+.detail .copy { max-width: 620px; margin: 0 auto; }
+.detail .copy h2 { font-size: 1.17em; }
+.detail figure { margin: 0; }
+.detail figure img { display: block; width: 100%; height: auto; }
+.detail figcaption { margin-top: .5em; text-align: center; }
+.detail pre { overflow-x: auto; }
+
+@media (max-width: 420px) {
+  nav { width: auto; }
+  nav p { margin-left: 1em; }
+}

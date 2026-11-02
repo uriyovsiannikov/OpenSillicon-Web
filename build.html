@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build and run — OpenSillicon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="detail">
+  <header><h1>OpenSillicon</h1><p><a href="index.html">home</a></p></header>
+  <main>
+    <section class="copy" id="build">
+      <h2>Build and run</h2>
+      <p>On a Linux x86_64 host with GCC, GNU binutils, GNU Make, Python 3, QEMU, OVMF and xorriso installed:</p>
+      <pre><code>make
+make run       # UEFI QEMU, serial console
+make run-gui   # UEFI QEMU, graphical display</code></pre>
+      <p class="note">The normal boot profile expects a supported AHCI controller and a disk with SilliconFS as its root filesystem. Hardware support is evolving.</p>
+    </section>
+  </main>
+</body>
+</html>
